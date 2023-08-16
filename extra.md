@@ -19,3 +19,13 @@ Ubuntu Wiki より
 LTSはLong Term Supportの略称とのこと。2年ごとにリリースされて、Ubuntu Serverは5年間サポートの対象になる。
 
 とりあえず、迷ったらLTSにしておこう。
+
+## 仮想マシンと本体の表示時刻がちょうど9時間ずれる件について
+'https://qiita.com/fkshom/items/bbae5c6c931d78bd8b67'　これによると、
+WindowsのJSTの時刻をUbuntuがUTCで読み込むせいで起こるらしい。
+
+## NTPサーバーとは？
+NTPサーバーと調べると、一番上にこのサイトが表示される。
+'https://jjy.nict.go.jp/tsp/PubNtp/index.html'
+NTPサーバーについて説明した一次情報サイトは見つけることができなかったが、恐らく、時刻を配信しているサーバーのようだ。個人サイトにNetwork Time Protocolの略称だと書かれていた。('https://wa3.i-3-i.info/word12072.html')
+
