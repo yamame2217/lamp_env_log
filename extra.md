@@ -29,3 +29,18 @@ NTPサーバーと調べると、一番上にこのサイトが表示される�
 'https://jjy.nict.go.jp/tsp/PubNtp/index.html'
 NTPサーバーについて説明した一次情報サイトは見つけることができなかったが、恐らく、時刻を配信しているサーバーのようだ。個人サイトにNetwork Time Protocolの略称だと書かれていた。('https://wa3.i-3-i.info/word12072.html')
 
+## yum install httpd　について調べてみた。
+
+まず、"yum install httpd"で検索をかけたが、表示された結果から、一次情報を直ぐに見つけることが出来なかった。
+
+"yum"で検索すると、このページにたどり着いた。'http://yum.baseurl.org/'
+どうやらPackage Managerらしい。Package ManagerはaptとかChocolateyとかpipぐらいしか知らなかったので初耳。
+かと思いきや、yum...yum...何度も見ていたら以前見たことある気がしてきた。気のせいかもしれない。
+
+"httpd"で検索すると、このページにたどり着いた。'https://httpd.apache.org/'
+
+"yum install httpd"はどうやら"yum"というパッケージマネージャーから"httpd"というパッケージをインストールするという意味のコマンドらしい。
+'http://yum.baseurl.org/'ここの説明を見る限り、"httpd"というパッケージにはApacheを動かすために必要なファイルが色々入っていると思われる。
+
+## --help コマンドの結果も見てみる。
+
