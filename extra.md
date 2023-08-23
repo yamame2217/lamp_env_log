@@ -2,7 +2,7 @@
 気になったことを調べたり考えたりした記録
 
 ## AlmaLinuxってなんだ？
-'https://almalinux.org/'によると、
+https://almalinux.org/によると、
 
 >AlmaLinux OS is an open-source, community-driven Linux operating system that fills the gap left by the discontinuation of the CentOS Linux stable release.
 
@@ -10,7 +10,7 @@
 どうやら、CentOS Linux stable releaseが廃止されたギャップを埋める為のOSのようだ。
 
 ## UbuntuのLTSってなんだ？
-'https://ubuntu.com/search?q=LTS'によると、
+https://ubuntu.com/search?q=LTSによると、
 > LTS is an abbreviation for “Long Term Support”. We produce a new Ubuntu Desktop and Ubuntu Server release every six months.
 
 Ubuntu Wiki より
